@@ -10,7 +10,7 @@ int main()
     arr[1]=false;
     for(i=2;i<=n;i++)
     arr[i]=true;
-    for(j=2;j<=n;j++)
+    for(j=2;j*j<=n;j++)//limit changed
     {
         if(arr[j]==true)
         {
